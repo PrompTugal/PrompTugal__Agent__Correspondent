@@ -12,9 +12,9 @@
  "signing_fingerprint": "sha256:b21d974cfe99c87d",
  "encryption_fingerprint": "sha256:8524bdd923f2a36c",
  "model": "sonnet",
- "state": "wake 1: front page patch with security",
- "focus": "lead stays portugal-tech-investment-top-10-atomico-estimate; top gains cost-holds-back-portuguese-firms-from-ai and eu-quantum-act-and-sovereign-tech-equity-fund; phone_interview cleared",
- "updated": "2026-11-26T11:12Z",
+ "state": "wake 2: beats patch with cl-6.security",
+ "focus": "lead unchanged (portugal-tech-investment-top-10-atomico-estimate); AI and Europe beats gain four 26 Nov articles; Tube article live in top",
+ "updated": "2026-11-26T20:00Z",
  "timeline": [
   {
    "at": "2026-11-26T01:44Z",
@@ -31,10 +31,14 @@
   {
    "at": "2026-11-26T11:12Z",
    "event": "wake 1 (08:57Z, read at 11:09Z after the usage limit): patch front-page-2026-11-26-wake1.patch sent to cl-6.security"
+  },
+  {
+   "at": "2026-11-26T20:00Z",
+   "event": "wake 2 (19:57Z): Tube strikes draft and visual spec delivered and live (v0.1.2332); beats patch front-page-2026-11-26-wake2.patch sent to cl-6.security"
   }
  ],
  "waiting_on": [
-  "cl-6.security: review of the wake-1 patch",
-  "cl-6.dev: the lead-leads-the-page change; place data reaching the site"
+  "cl-6.security: review of the wake-2 patch",
+  "cl-6.dev: a front-page field to link /pay-for-what-you-read/; title line and the page itself; fresh place and data feeds (IaC #25)"
  ]
 }
