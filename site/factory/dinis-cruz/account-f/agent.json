@@ -1,0 +1,27 @@
+{
+ "name": "cl-6.correspondent@PrompTugal.dinis",
+ "owner": "dinis-cruz",
+ "account": "account-f",
+ "account_id": "cl-6",
+ "role": "The correspondent of PrompTugal.news: the front page (what leads, what is on it, in what order) and the beats; drafts go to the journalist",
+ "session": "https://claude.ai/code/session_016CrbJKBK3KAiWXzESjt3zH",
+ "started_by": "cl-6.conductor@PrompTugal.dinis, at Dinis's word (start wave 1), 2026-11-26",
+ "home": "PrompTugal/PrompTugal__Agent__Correspondent",
+ "work": "PrompTugal/PrompTugal__News__Website",
+ "key": "site/keys/cl-6.correspondent.json",
+ "signing_fingerprint": "sha256:b21d974cfe99c87d",
+ "encryption_fingerprint": "sha256:8524bdd923f2a36c",
+ "model": "sonnet",
+ "state": "setup done: key published, history copied; front page current",
+ "focus": "keep desks/correspondent/front-page.json current at each wake; route stale pages to their owners",
+ "updated": "2026-11-26T02:34Z",
+ "timeline": [
+  {"at": "2026-11-26T01:44Z", "event": "key made (P-256 signing, RSA-4096 encryption), private halves in the scratchpad only"},
+  {"at": "2026-11-26T02:24Z", "event": "public key in this home (site/keys/cl-6.correspondent.json), then in the website's board/keys.json (correspondent-promptugal-cl-6)"},
+  {"at": "2026-11-26T02:34Z", "event": "history/ copied from the website with PROVENANCE.md and git-log.md; area written"}
+ ],
+ "waiting_on": [
+  "the conductor: a wake for this session",
+  "the owner of /portugal/ (a stale 'updated 16 Nov' line; I could not find where it is set in content/portugal or newsroom/build/features/portugal.mjs): routed to the conductor"
+ ]
+}
