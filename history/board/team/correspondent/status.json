@@ -1,0 +1,571 @@
+{
+  "agent": "correspondent@PrompTugal.dinis",
+  "focus": "The front page (the Algarve's stories lead, then national and international) and the beats AI, Portugal, Europe as sub-agents; drafts to journalist@.",
+  "state": "working (restart on this account, started by conductor.b@; the places edition)",
+  "updated": "2026-11-21T08:15Z",
+  "beats_run_as_sub_agents": [
+    "Brazil (6 November 2026: three rounds, the first story project)",
+    "AI (6 November 2026, 10:45 UTC)"
+  ],
+  "done": [
+    "Session key made (pki-agent.mjs keygen --session, sha256 matching the team site's pin in admin/tools/seal.mjs); public half in board/keys.json as correspondent-promptugal; my row in data/newsroom/agents.json",
+    "board/team/correspondent/ROLE.md: the front page, the beats as sub-agents, the paths I write, how a run goes",
+    "desks/correspondent/front-page.json: the lead (from-pitch-to-new-markets: the one piece of hard news, on the mandate), the top three (Brazil, the numbers, Europe), a service box, the beats, the newsroom status piece off Latest, the order of the bands, what is missing",
+    "The Brazilian beat (sub-agent): desks/correspondent/beats/brazil/universe.md (the counts and where they disagree, who, companies, sessions, investors, connections, blind spots) and evidence.json (29 claims, each with its source, date published and date read 6 November 2026); six ideas BR1 to BR6 in desks/correspondent/ideas/, on the story board as Idea (BR5 Held)",
+    "The beat's main finding: no public list names the Brazilian delegation. The one official list is 188 tax numbers with no names, its status frozen at 28 August 2026; the 2026 counts run from 100 to about 300, and ApexBrasil's own parts add to 239 against its headline of about 200",
+    "At Dinis's word (about 05:00 UTC, board/guidance/2026-11-06-the-brazil-story-and-story-projects.md), the lead of the first story project, Brazil at Web Summit Lisbon 2026: round 1's universe, the project file brought up to date, and twelve tasks anyone can pick up (board/tasks/brazil-1.md to brazil-12.md)",
+    "Wake 04:41: the front page refreshed (S9, rewritten as the project's round 1, leads; the PITCH story to the top three) and planned by day, Friday 6 to Friday 13 November, as Dinis asked at 04:30 (desks/correspondent/front-page.json, 'days')",
+    "The project's data moved into data/stories/S9/ on ontologist@'s schemas: 20 sources, 29 claims (20 facts, 8 estimates, 1 opinion), 12 entities",
+    "brazil-2 and brazil-3, run as a sub-agent and reviewed: 236 Brazilian startups on Web Summit's public LIS26 listing (225 new to the team; 32 in AI), and the first named state missions (Paraíba's 30, São Paulo's SP Global Tech 10)",
+    "Wake 06:41: front page refreshed (S7 to the top three and the Portugal beat; S9 still leads until round 2); decisions on synthetic@'s F39 and F40 in front-page.json; brazil-1 and brazil-8 run as a sub-agent and reviewed (27 Brazil-tied speakers in 31 sessions, 18 of them founders in the Startup Showcase; no Brazilian venture firm named; three speakers with no country on their pages left out); BR4 updated",
+    "Wake 08:41: front page refreshed (S13, Web Summit's ten Lisbon years at 2.5 billion euros according to EY, leads; S9 to the top three; S11 and S13 placed); brazil-4 and brazil-5 run as a Sonnet sub-agent and reviewed (six places with a 2026 mission traced against Sebrae's twelve unnamed; Amapá's 9 companies and Tocantins's 17 places new; mentions resting on the held Sebrae reports removed)",
+    "Wake 10:41: dev@ wired the front page to front-page.json (75166071: lead and top are live); S17 into the service box and Europe, the first-night story into From the newsroom; the AI beat run as a Sonnet sub-agent and reviewed: desks/correspondent/beats/ai/ (46 agent sessions, 14 companies' agents in their own words, 36 sourced claims) and ideas AI1 to AI5 (the agent sessions by day; what the agents can reach; the controls the pages describe and leave out; one agent through reach, mandate and gap; who lets the agent in), with the lead's cautions (re-read every quote; ask a company before reading it through the lens)",
+    "Wake 12:42: front page refreshed (S13 leads; S9, S20 Octo Health and the PITCH story in the top three; S19, S16 and Web Summit before 2026 placed); the ideas ledger read: its correspondent rows taken into ROLE.md as standing rules (one step ahead of the summit, SD-16, was not captured); brazil-11 round 1 on Haiku (home pages of 109 companies: one with operations in Brazil, iTRecruiter; about pages left open)",
+    "14:15: Algarve Evolution on the front page for Dinis's 15:00 meeting (the sprint, at his word of 14:10): S7, our article on its plan, leads until 16:00 UTC; a 'feature' entry for the mini-site /portugal/algarve-evolution/ (be7dbb3)",
+    "Wake 14:41: checked the live front page (S7 leads, S13 second); the PITCH story back in the Portugal beat; no beat run this wake (the sprint has priority until 16:00, my part being the front page)",
+    "Wake 16:41: S13 leads again (the Algarve window closed at 16:00); S7 kept in the top three; the feature entry retired to feature_history; the days plan offered to the daily newsletter's editions (Dinis, 16:20); no beat run, to spare the subscription's 7-day limit (the conductor's warning to Dinis, 15:52)",
+    "Wake 18:41: two new articles placed (AgroGrINTech's pilot in the Portugal beat; the agents' messages counted in From the newsroom); Saturday's front page planned (the first-day guide leads from the morning); the day's hand-over debrief (Dinis, 17:55); no beat, to spare the subscription's 7-day limit",
+    "Wake 20:41: BR4 (Brazil on the stages) and BR2 (Brazil's startup house) published by journalist@ from my ideas; BR4 into the top three, both in the Brazil beat and the summit days' plan; no beat, the day's budget at 99%",
+    "21:25: the final hand-over debrief, at the conductor's word relaying Dinis (board/the-account-move.md, wave 1); this session stops after this run",
+    "22:40 to 23:00 (account B): onboarded; new session key correspondent-promptugal (the first session's now correspondent-promptugal-0, superseded 22:46); sgit-ai 0.27.0 present, so the inbox block is gone once the conductor reissues the inbox; Angelo's communication graph (T1) placed in From the newsroom; Saturday's lead set (the first-day guide), top three: EY's ten Lisbon years, Brazil on the stages, the Algarve plan; a 'briefing' key (five numbered slugs) for Silvio's mock E",
+    "Wake 00:41 Saturday (account B): inbox reissued by the conductor and drained (empty: the new vault starts fresh); BR3, Rio's ten startups, published by journalist@ from my idea, into the top three, the Brazil beat, the briefing and Saturday's plan; the team series (T2 to T5, WS125) placed in From the newsroom; the day's hand-over debrief",
+    "Wake 02:41 Saturday: inbox drained (one message, historian@'s VE-04 lessons, signature checked against historian-b-promptugal; my lessons 3 and 5 taken: link to company pages, measure the front door); WK1, 'Plan your week by field', an idea for Sunday's lead from the team's agenda data (209 items by track and day: the Cybersecurity Summit all on Thursday, PITCH on Tuesday), with its cautions; Sunday's plan points to it; a 'measure' ask to observability@ in front-page.json (the share who read a second page, A against E)",
+    "Wake 06:41 Saturday: dev@ wired E's briefing to my list and D, F, G read my beats (its inbox note, signature checked); the beats put in Saturday's order (Web Summit first with the attendee's guides, then Brazil, Portugal, Europe, AI with the agent setup guide and Europe's AI help, a three-piece From the newsroom section last)",
+    "Wake 08:41 Saturday: BR6, Brazil's year-round doors into Europe through Portugal, published by journalist@ from my idea: second in the Brazil beat, in the Portugal beat and Sunday's plan (evergreen, not the top three)",
+    "Wake 10:41 Saturday: synthetic@'s F54 (the summit days' five were press conferences: no picks in data/front/days.json) accepted: my five per day for 9 to 12 November in front-page.json 'day_picks', in days.mjs's shape, chosen through the beats and the lens; dev@ asked to read them there, abp@ asked about the grant; BR1, last year's Brazil counts, published by journalist@ from my idea, placed in the Brazil beat",
+    "Wake 12:41 Saturday: F54 done (dev@ wired days.mjs to my day_picks; the day pages show my five); S24, driving to Web Summit (roads close from Sunday), into the top three, the briefing and the Web Summit beat; EY's ten Lisbon years out of the top after a day and a half; Sunday's lead planned: S24, or WK1 if published by the evening",
+    "Wake 14:41 Saturday: F54 verified live by synthetic@ (v0.1.535); S25, the sign-in, placed in From the newsroom; the lead and top unchanged (the first-day guide; road closures, Rio's ten, the Algarve plan)",
+    "Wake 18:41 Saturday: WK1, 'Plan your week by field', published by journalist@ from my idea (re-counted on all 1,122 sessions of Web Summit's public schedule; my two lines confirmed): leads from tonight for Sunday; top three: road closures, the first-day guide, Rio's ten; Sunday's briefing set",
+    "Wake 20:41 Saturday: journalist@ corrected WK1 (PITCH's Tuesday sessions are the group rounds; the semi-final is Wednesday 17:00, the final Thursday 12:30, both on Centre Stage): my idea file carries a dated correction (my 02:41 line 'PITCH on Tuesday 10' held only for the agenda we track); the front page never quoted it; Monday planned: WK1 keeps the lead until Monday evening, then the Tuesday guide",
+    "Wake 22:41 Saturday: S27, the venue map, into the top three (with road closures and the first-day guide), Sunday's briefing, the Web Summit beat and the Sunday and Monday plans; Rio's ten leaves the top for the Brazil beat; S26, the daily newsletter, first in From the newsroom; WK1 leads into Sunday as set",
+    "Wake 00:41 Sunday: journalist@ re-counted WK1 (1,070 sessions; PITCH's group rounds on Stages 6, 9 and 12): the lead's note updated; told journalist@ WK1 already leads, so each re-count is live",
+    "Wake 02:41 Monday (back on after Dinis's stop of 8 November, 20:42, in the summit set): three articles of 8 November placed (who builds an AI agent's parts, into the top three; five AI builders in the AI beat; eleven health startups in the Web Summit beat); Monday's briefing set; WK1 leads until the evening switch to the Tuesday guide",
+    "Wake 10:41 Monday: the wristband-queues piece into the top three and the briefing (pick-up day); Road 2 Web Summit beyond Lisbon first in the Portugal beat; the first-day guide leaves the top (the queues piece serves the day better)",
+    "Wake 12:41 Monday: IBM's sports tech challenge (a Tuesday showcase) in the Web Summit beat and Tuesday's plan; the 9 November hand-over debrief",
+    "Wake 14:41 Monday: Tuesday's edition prepared in front-page.json 'next_edition' (lead: the Tuesday guide; top: WK1, IBM's showcase, wristband queues; briefing of five) for a one-step swap at the evening wake",
+    "Wake 18:41 Monday (Opening Night): Tuesday's edition swapped in: the Tuesday guide leads summit day 1; top WK1, IBM's showcase, wristband queues; Tuesday's briefing",
+    "Wake 20:41 Monday: Wednesday's edition drafted in 'next_edition' (the Wednesday guide leads unless Tuesday brings a bigger story), to revise with Tuesday's news",
+    "Wake 22:41 Monday: dev.data@'s re-read (Serpro's Brazil cyber resilience session moved from Thursday 16:10 to Wednesday 14:32, Stage 7): my day picks follow (Wednesday gains it, Thursday gains the MCP and agent-auth session); the two articles that still say Thursday passed to journalist@; three articles of 9 November placed (where to find Portugal, into Tuesday's briefing; Portugal on the programme; press conferences day by day)",
+    "Wake 06:41 Tuesday (after THE BIG STOP, 9 Nov 23:30, and THE RESTART, 10 Nov 02:40): the agentic edition on the front page: Gravitee's agent security survey leads; GetVocal's agents for Glovo, WPP's reviewed plans and Teamworks's coaches' agent in the top three; the AI beat first with all four; the passes piece placed; Tuesday's briefing reworked; sherpa@'s R1 (no headline on the first phone screen) passed to dev@",
+    "Wake 08:41 Tuesday: Wednesday's edition reworked for the agentic edition (the GAMMA-Ray launch leads when published, fallback who builds an agent's parts; an interview in the top three when published; Gravitee, GetVocal; a briefing led by the day's guide)",
+    "Wake 10:41 Tuesday: designer@'s design flip (B, Calcada, round 3; board/spec-the-agentic-home-page.md): my H2 pick in front-page.json 'phone_interview' (Buzz Messaging AI today, Student Property Network on Wednesday); 'Speed where it's safe, control where it matters' in From the newsroom",
+    "Wake 12:41 Tuesday: Dinis's 12:40 pivot to agents ('the summit now', filtered to agents, is mine): the day pages' five a day re-filtered to agent sessions only (Tuesday afternoon, Wednesday, Thursday); the policy, Portugal and Brazil sessions stay in their beats",
+    "Wake 14:41 Tuesday: IPMA's red wind warning for Lisbon on Wednesday (midday to 21:00) leads the front page (safety news for every attendee on the summit's main day); Gravitee's survey to the top three; in Tuesday's and Wednesday's briefings and the Web Summit beat",
+    "Wake 16:41 Tuesday: 'What Lovable deleted' (its CEO on rebuilding an AI coding agent) into the top three, the AI beat and Wednesday's plan; the red wind warning keeps the lead; designer@'s round 4 asks nothing new of me (the summit now already filtered to agents)",
+    "Wake 18:41 Tuesday: Wednesday's edition in: S41 (the storm: red wind and, since 17:43, red rain warnings) keeps the lead (the GAMMA-Ray swap held; Dinis's case study); reviewer@PrompTugal.vicky's five S41 lead keys recorded in 'lead_shared_keys' and kept on every rewrite (Dinis, 18:25); top Gravitee, Lovable, GetVocal; Wednesday's briefing with the warning first; the phone's interview rolled to Student Property Network; sherpa@'s R5 and R6 passed to dev@; Noxus's GAMMA-Ray card waits on journalist@'s article",
+    "Wake 20:41 Tuesday: Web Summit cancelled Day 2 (Wednesday 11 November; announced 19:38 UTC at the government's formal advice; Storm Charles; relayed by Vicky's conductor, signature checked): S41 keeps the lead with a new 'why' (reviewer@PrompTugal.vicky's five keys left untouched); Wednesday's briefing cleared of going-to-the-venue items; Wednesday's day picks marked 'did not take place' and kept as the record; the days plan updated; Thursday's edition drafted (resumes if Day 3 is confirmed)",
+    "Wake 22:41 Tuesday: dev@ marked Wednesday 'did not take place' across the site from my status line; the refunds piece for the cancelled Day 2 into the top three, the briefing and the Web Summit beat; AG1, 'the agent conversation the storm postponed', an idea from social.watch@'s list of twelve Wednesday agent sessions, filed for journalist@",
+    "Wake 00:41 Wednesday (Day 2 called off): beat names aligned with the articles' eight categories (Web Summit 2026, The newsroom); dev.data@'s IPMA re-read (red rain now from 09:00) is for S41's owners and the app notice, nothing of mine; the storm leads",
+    "Wake 02:41 Wednesday: Zalando's AI coding agents first in the AI beat and in Thursday's draft briefing; the storm leads, refunds in the top three",
+    "Wake 04:41 Wednesday: getting around Lisbon on the storm day and Manus 2.0 (an agent's own email, phone and wallet) into the top three with refunds; the morning's briefing reworked; the AI Act's first harmonised standard in Europe and AI; Manus in Thursday's draft",
+    "Wake 06:41 Wednesday: the EU's consultation on election rules for generative AI in the Europe beat; the storm leads, transport, refunds and Manus in the top three",
+    "Wake 08:41 Wednesday: Thursday's breakout startups on Centre Stage in the Web Summit 2026 and Brazil beats and Thursday's draft (top three and briefing); the storm leads",
+    "Wake 10:41 Wednesday: Dinis's 10:00 guidance (the storm and today lead; storm-charles.promptugal.news as the live source; Lisbon Fringe) recorded in front-page.json 'live_sources' for dev@; Konecta's Lisbon delivery centre in Portugal; the EU's preliminary TikTok finding in Europe; the storm leads (IPMA's wind now orange, dev.data@; the lead's facts are reviewer@'s five keys)",
+    "Wake 12:41 Wednesday: Web Summit back on for Thursday (its homepage at 12:32, dev.data@'s read): the days plan and Thursday's draft follow (a 'Thursday back on' article leads when published, fallback the breakout startups); Thursday's picks flagged for the rescheduled schedule; sherpa@'s W7 (the headline should carry Thursday) passed to reviewer@PrompTugal.vicky and journalist@ (the lead's facts are theirs); the Digital Fairness Act's rules for shopping agents into the top three, AI and Europe",
+    "Wake 14:41 Wednesday: reviewer@PrompTugal.vicky's standfirst now says Thursday is back on (sherpa@'s W7 taken); IPMA lowered and shortened the warnings (dev.data@); Web Summit's schedule not yet moved; the 11 November hand-over debrief",
+    "Wake 16:41 Wednesday: no red warning left for Lisbon since 15:06 (dev.data@); Web Summit's schedule still unmoved; sherpa@'s second note on S41's headline sent to journalist@PrompTugal.vicky (b); Thursday's edition goes in at the 18:41 wake whether or not the schedule has moved",
+    "17:28 Wednesday (between wakes, on conductor.b@'s note, checked myself): the Fringe live source moved from fringe.promptugal.news (404) to https://lisbontechfringe.com/?via=promptugal-news (200, 'Lisbon Tech Fringe'); dev@ fixes the same link in assets/sources/sources.json",
+    "Wake 18:41 Wednesday: Thursday's edition in (briefing, top three with the breakout startups first, the phone's interview); the lead swap was reverted: moving S41 off the lead orphaned /storm/charles/ (linked only from S41 as the lead) and the gate refused it, so S41 keeps the lead with reviewer@PrompTugal.vicky's five keys restored; dev@ and dev@PrompTugal.vicky asked to link the storm page from elsewhere (the live sources strip or the top three) so the lead can move to Thursday",
+    "Wake 20:41 Wednesday: dev@ linked /storm/charles/ from the live sources strip (19:10), so the lead moved to Thursday: the breakout startups on Centre Stage lead; S41 to the top three as the record after 30 hours; reviewer@PrompTugal.vicky's five keys kept in 's41_lead_record' (their grant ended); Web Summit's Thursday update (talks from 9am, 100+ speakers and 65 meetups moved) noted for journalist@",
+    "Wake 22:41 Wednesday: Vicky's dev@ set the lead to S58, Thursday's practical guide to the last day (21:13, at Vicky's word, relaying Dinis's takedown decision); kept: it is the right lead; the websummit-only takedown pass read (my step 6: the front page and its bands), every slug in my file still published",
+    "Wake 00:41 Thursday (the final day): S58 leads; the government's alert ended at 23:59 (Vicky's conductor's relay); Friday 13's edition drafted in 'next_edition' (the week in review leads when published, fallback S41; Thursday's agent sessions, AG1 and Noxus's card as slots)",
+    "Wake 08:41 Thursday (the final day): Discord's Lisbon engineering hub into the top three (in place of the storm, now in its beat as the record), the Portugal beat and the briefing; S58 leads",
+    "09:00 Thursday, the takedown pass's step 6 (the front page and its bands): dev@'s websummit-only switch is on (807 pages from 1,530); every article in my file still published and on the built front page; all 15 day picks were websummit-only: cleared (git keeps the record); AG1's title softened and the idea held for shadow sources",
+    "Wake 10:41 Thursday: the 12 November hand-over debrief (the takedown step done, the lead's history, three lessons)",
+    "Wake 12:41 Thursday: PagerDuty's lessons from agents in production into the top three and the AI beat; my mistake recorded: clearing day_picks at 08:45 also cleared Wednesday's 'did not take place' status, and the strip and app stopped showing it as called off; dev@ restored it from the build's own record (newsroom/build/cancelled-days.json)",
+    "13:35 Thursday (on conductor.b@'s relay of Lisbon Tech Fringe's ask): a front-page line for the last evening accepted without a number ('Tonight in Lisbon, after the summit: the evening's tech events, many free'), in front-page.json live_sources' Fringe 'tonight_line' until midnight; the asked counts (38 events, 30 free) did not match Fringe's own page at 13:23 UTC (Tonight 27; 68 today), so not used; dev@ asked to show it in the live sources strip",
+    "Wake 14:41 Thursday: dev@ put Fringe's line for tonight in the strip (assets/sources/sources.json line_for, until 23:59 UTC, no count), live in its next release; no new article"
+  ],
+  "next": [
+    "18:41 Thursday: swap Friday 13's edition in (the week in review, or S41 as fallback lead)",
+    "Friday 13 November: drafted in 'next_edition'; ask journalist@ for the week in review on Thursday afternoon; swap in on Thursday evening"
+  ],
+  "asks": [
+    "Dinis: for your record, not a block: dev@PrompTugal.vicky changed my front page's lead at 21:13 UTC on 11 November (to S58, Thursday's guide, at Vicky's word, relaying your takedown decision). Your 18:25 grant to Vicky's team covered only five S41 lead keys, which had ended. I kept the change, as it is the right lead; whether Vicky's team may set the lead is yours to say",
+    "security@: the two held Sebrae reports (BR5) still wait for your answer; they were only in the first session's scratchpad and must be found again if they may be cited",
+    "observability@: the share of front-page visits that read a second page, readers only, A against mock E (front-page.json 'measure'; historian@'s lesson 5)",
+    "Dinis: my inbox drain cannot push its vault copy (sgit push has no token in this session), so drained messages stay pending on the lane; I read them locally all the same. The ontologist uses a wrapper passing the environment's SG/Send token to sgit push; is that in my grant?",
+    "journalist@: AG1 (desks/correspondent/ideas/ag1-the-agent-sessions-the-storm-took.md): the twelve Wednesday agent sessions that did not take place, and what each speaker has published; Noxus's GAMMA-Ray article for the top"
+  ],
+  "wakes": [
+    {
+      "started": "2026-11-06T03:40Z",
+      "outcome": "ok",
+      "release": "part 1 pushed (969f518, c2fd448); this part numbered by CI",
+      "line": "First run: key, ROLE.md, the front page as an editor wants it, the Brazilian beat (six ideas, one held)"
+    },
+    {
+      "started": "2026-11-06T04:41Z",
+      "outcome": "ok",
+      "release": "29ac53d (v0.1.116); this commit numbered by CI",
+      "line": "Front page by day; S9 leads; the project's data in data/stories/S9/; brazil-2 and brazil-3 done (236 Brazilian startups on the LIS26 listing; Paraíba's 30 and São Paulo's 10 named)"
+    },
+    {
+      "started": "2026-11-06T06:41Z",
+      "outcome": "ok",
+      "release": "7f7e95a (v0.1.156); this commit numbered by CI",
+      "line": "S7 to the top; F39 and F40 decided; brazil-1 and brazil-8 done (27 Brazil-tied speakers, no Brazilian VC named)"
+    },
+    {
+      "started": "2026-11-06T08:41Z",
+      "outcome": "ok",
+      "release": "750fe61 (v0.1.178); this commit numbered by CI",
+      "line": "S13 leads; brazil-4 and brazil-5 done (six state missions traced, Amapá's 9 named)"
+    },
+    {
+      "started": "2026-11-06T10:41Z",
+      "outcome": "ok",
+      "release": "f26be1e (v0.1.215); this commit numbered by CI",
+      "line": "Front page live from my choices; S17 placed; the AI beat (ideas AI1 to AI5)"
+    },
+    {
+      "started": "2026-11-06T12:42Z",
+      "outcome": "ok",
+      "release": "bc7339f (v0.1.246); this commit numbered by CI",
+      "line": "S20 to the top; the ledger's rules in ROLE.md; brazil-11 round 1 (one item)"
+    },
+    {
+      "started": "2026-11-06T14:11Z",
+      "outcome": "blocked",
+      "release": "this commit",
+      "line": "The conductor's note: pinned sgit-ai install denied by the session's permission check; said to Dinis first in asks"
+    },
+    {
+      "started": "2026-11-06T14:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Sprint check: S7 leads live; the mini-site still not linked from the front page (dev@'s feature band); no beat this wake"
+    },
+    {
+      "started": "2026-11-06T16:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "S13 back to the lead; feature retired; no beat (the subscription's limit)"
+    },
+    {
+      "started": "2026-11-06T18:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Articles placed; Saturday planned; hand-over debrief written"
+    },
+    {
+      "started": "2026-11-06T20:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "BR4 and BR2 placed; one release only (budget)"
+    },
+    {
+      "started": "2026-11-06T21:25Z",
+      "outcome": "handed over",
+      "release": "this commit",
+      "line": "Final debrief; moving to account B"
+    },
+    {
+      "started": "2026-11-06T22:40Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Account B onboarding; Saturday's lead; T1 placed; briefing for mock E"
+    },
+    {
+      "started": "2026-11-07T00:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Inbox drained (empty); BR3 to the top three; the team series placed; debrief"
+    },
+    {
+      "started": "2026-11-07T02:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "historian@'s lessons read; WK1 for Sunday's lead; the front door's measure asked"
+    },
+    {
+      "started": "2026-11-07T04:41Z",
+      "outcome": "idle",
+      "release": "this commit",
+      "line": "No new article or message; the built home page leads with the first-day guide as set; WK1 not yet taken by journalist@"
+    },
+    {
+      "started": "2026-11-07T06:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Briefing and beats live; beats in Saturday's order"
+    },
+    {
+      "started": "2026-11-07T08:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "BR6 placed"
+    },
+    {
+      "started": "2026-11-07T10:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "F54: five picks per summit day; BR1 placed"
+    },
+    {
+      "started": "2026-11-07T12:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "F54 live; S24 to the top; Sunday planned"
+    },
+    {
+      "started": "2026-11-07T14:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "F54 verified; S25 placed"
+    },
+    {
+      "started": "2026-11-07T16:41Z",
+      "outcome": "idle",
+      "release": "this commit",
+      "line": "Nothing new to place; WK1 not on journalist@'s list, asked on its inbox (Monday morning if published Sunday); Sunday's lead S24, switched at 22:41"
+    },
+    {
+      "started": "2026-11-07T18:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "WK1 published: leads for Sunday"
+    },
+    {
+      "started": "2026-11-07T20:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "WK1's PITCH correction carried to my idea; Monday planned"
+    },
+    {
+      "started": "2026-11-07T22:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Venue map to the top; the newsletter placed; WK1 leads Sunday"
+    },
+    {
+      "started": "2026-11-08T00:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "WK1's re-count noted; WK1 leads Sunday"
+    },
+    {
+      "started": "2026-11-09T02:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Back on; three articles placed; Monday's briefing"
+    },
+    {
+      "started": "2026-11-09T04:41Z",
+      "outcome": "idle",
+      "release": "this commit",
+      "line": "No new article; WK1 re-counted by journalist@ (1,158 sessions at 04:30), nothing of mine quotes the changed line; WK1 leads"
+    },
+    {
+      "started": "2026-11-09T06:41Z",
+      "outcome": "idle",
+      "release": "this commit",
+      "line": "No new article or message; WK1 leads"
+    },
+    {
+      "started": "2026-11-09T08:41Z",
+      "outcome": "idle",
+      "release": "this commit",
+      "line": "No new article or message; WK1 leads"
+    },
+    {
+      "started": "2026-11-09T10:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Wristband queues to the top; Road 2 beyond Lisbon placed"
+    },
+    {
+      "started": "2026-11-09T12:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "IBM piece placed; the day's debrief"
+    },
+    {
+      "started": "2026-11-09T14:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Tuesday's edition prepared"
+    },
+    {
+      "started": "2026-11-09T16:41Z",
+      "outcome": "idle",
+      "release": "this commit",
+      "line": "No new article or message; Tuesday's edition staged for the 18:41 switch"
+    },
+    {
+      "started": "2026-11-09T18:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "The Tuesday guide leads summit day 1"
+    },
+    {
+      "started": "2026-11-09T20:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Wednesday's edition drafted"
+    },
+    {
+      "started": "2026-11-09T22:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Day picks follow a programme change; three articles placed"
+    },
+    {
+      "started": "2026-11-10T06:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "The agentic edition: Gravitee's survey leads; four agent stories placed"
+    },
+    {
+      "started": "2026-11-10T08:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Wednesday reworked for the agentic edition"
+    },
+    {
+      "started": "2026-11-10T10:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "H2 pick for the agentic home page; a newsroom piece placed"
+    },
+    {
+      "started": "2026-11-10T12:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "The summit now, filtered to agents"
+    },
+    {
+      "started": "2026-11-10T14:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "The red wind warning leads"
+    },
+    {
+      "started": "2026-11-10T16:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Lovable to the top three; the wind warning leads"
+    },
+    {
+      "started": "2026-11-10T18:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Wednesday's edition: the storm keeps the lead"
+    },
+    {
+      "started": "2026-11-10T20:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Day 2 cancelled: the front page follows"
+    },
+    {
+      "started": "2026-11-10T22:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Refunds to the top; AG1 filed"
+    },
+    {
+      "started": "2026-11-11T00:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Beat names follow the categories; the storm leads"
+    },
+    {
+      "started": "2026-11-11T02:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Zalando placed"
+    },
+    {
+      "started": "2026-11-11T04:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Transport and Manus to the top; the AI Act standard placed"
+    },
+    {
+      "started": "2026-11-11T06:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "EU election guidelines placed"
+    },
+    {
+      "started": "2026-11-11T08:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Thursday's breakout startups placed"
+    },
+    {
+      "started": "2026-11-11T10:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Live sources recorded; Konecta and TikTok placed"
+    },
+    {
+      "started": "2026-11-11T12:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Thursday back on: the plan follows; the DFA's shopping agents to the top"
+    },
+    {
+      "started": "2026-11-11T14:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "The day's debrief; Thursday's edition waits on the schedule"
+    },
+    {
+      "started": "2026-11-11T16:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Storm easing; Thursday's swap set for 18:41"
+    },
+    {
+      "started": "2026-11-11T18:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Thursday's edition in; the storm to the top three"
+    },
+    {
+      "started": "2026-11-11T20:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "The lead moves to Thursday; the storm to the top three"
+    },
+    {
+      "started": "2026-11-11T22:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "S58 leads Thursday (set by Vicky's dev@, kept); the takedown pass read"
+    },
+    {
+      "started": "2026-11-12T00:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Friday's edition drafted"
+    },
+    {
+      "started": "2026-11-12T02:41Z",
+      "outcome": "idle",
+      "release": "this commit",
+      "line": "No new article or message; S58 leads the final day; Thursday's schedule data unchanged"
+    },
+    {
+      "started": "2026-11-12T04:41Z",
+      "outcome": "idle",
+      "release": "this commit",
+      "line": "No new article or message; S58 leads the final day"
+    },
+    {
+      "started": "2026-11-12T06:41Z",
+      "outcome": "idle",
+      "release": "this commit",
+      "line": "No new article or message; S58 leads the final day (talks from 9:00); the takedown pass's step 6 waits on dev@'s switch"
+    },
+    {
+      "started": "2026-11-12T08:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Discord's Lisbon hub to the top; then the takedown's front-page step: day picks cleared, AG1 held"
+    },
+    {
+      "started": "2026-11-12T10:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "The day's debrief"
+    },
+    {
+      "started": "2026-11-12T12:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "PagerDuty to the top; a lesson on clearing day_picks"
+    },
+    {
+      "started": "2026-11-12T14:41Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Fringe's line in the strip (dev@); Friday at 18:41"
+    }
+  ],
+  "debrief": "board/team/correspondent/debriefs/2026-11-21-handover.md",
+  "session": "session_01Kw9UwD8Vhfy61uBa4EkATR; notes in board/team/correspondent/sessions/session_01Kw9UwD8Vhfy61uBa4EkATR/",
+  "asks_for_dinis": [],
+  "runs": [
+    {
+      "started": "2026-11-16T19:37Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "New session key (correspondent-promptugal; account B's is -b, superseded); front page reset to the places edition: Algarve tourism AI lead; farms, Faro, Neuraspace top three; Portugal beat refreshed. No beat sub-agent this run."
+    },
+    {
+      "started": "2026-11-16T20:45Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "New Algarve beat (8 town stories) placed first in the beats; the two newsroom pieces placed; lead and top unchanged"
+    },
+    {
+      "started": "2026-11-16T22:44Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Four new articles placed in the Algarve, Portugal and AI beats; lead and top unchanged"
+    },
+    {
+      "started": "2026-11-17T12:45Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Two new articles (ATM mark-up, the payment desk) placed in the Portugal beat; lead and top unchanged"
+    },
+    {
+      "started": "2026-11-17T14:45Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "One new article (who wrote, checked and signs) placed in The newsroom beat"
+    },
+    {
+      "started": "2026-11-17T16:44Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Nothing new to place; the day's hand-over debrief"
+    },
+    {
+      "started": "2026-11-17T22:44Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "AI physiotherapy in Portugal's health service placed in the Portugal beat"
+    },
+    {
+      "started": "2026-11-18T12:44Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Nothing new to place; the day's hand-over debrief"
+    },
+    {
+      "started": "2026-11-19T00:45Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Nothing new to place; no library requests for me; the day's hand-over debrief"
+    },
+    {
+      "started": "2026-11-19T10:44Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Superhuman/Rows (Porto) placed in the Portugal beat. Inner passes: diff is one article slug in my own file; self-checked (no secret, no personal data, nothing outside my paths), no sub-agents spawned for a one-line change"
+    },
+    {
+      "started": "2026-11-19T16:01Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "SSH signing key enrolled (correspondent-promptugal, ssh + session in keys.json) at conductor.b@'s relay of the S72 check; commits signed with it from now on. Inner passes: change is my own keys.json entry and status; no secret printed or committed"
+    },
+    {
+      "started": "2026-11-20T08:15Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Remote physiotherapy payment story placed in the Portugal beat; the day's hand-over debrief (notes the SSH signing enrolment of 19 Nov). Inner passes: self-checked a diff of one slug, a debrief and status in my own paths; no secret or personal data"
+    },
+    {
+      "started": "2026-11-21T08:15Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "How the EU simplified the AI Act placed in the Europe beat; the day's debrief. Inner passes: self-checked, a diff of one slug, a debrief and status in my own paths; no secret or personal data"
+    }
+  ]
+}

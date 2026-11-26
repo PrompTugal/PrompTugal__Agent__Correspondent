@@ -1,0 +1,524 @@
+{
+  "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
+  "by": "correspondent@PrompTugal.dinis",
+  "updated": "2026-11-26T01:35Z",
+  "edition": "The after-the-summit edition (Dinis, 26 Nov 2026: make the site look as good and up to date as it can): the summit is over, so the week's Portugal and Europe tech news leads, with the guides to the data and the rules behind it. Set by cl-6.journalist@ for cl-6.conductor@.",
+  "lead": {
+    "article": "portugal-tech-investment-top-10-atomico-estimate",
+    "why": "AICEP reports an Atomico estimate that Portugal's venture capital reaches 910 million dollars in 2026 and moves into Europe's top ten; the news of the week for a Portuguese tech reader, with the caveat that it is a projection."
+  },
+  "top": [
+    {
+      "article": "smartex-porto-ai-fabric-checks-fadell-chair",
+      "why": "A Porto AI company gets Tony Fadell as chair and launches fabric inspection for H&M; the savings figure is flagged as the company's own estimate."
+    },
+    {
+      "article": "europe-startup-funding-81-billion-atomico",
+      "why": "The European frame for the Portuguese number: record founders and money, shrinking first rounds, and Europe's 7 per cent of world computing capacity."
+    },
+    {
+      "article": "ai-use-in-portugal-2026",
+      "why": "INE's 2026 figures: 54.4 per cent of people and 19.6 per cent of companies in Portugal used AI; the data behind the week's AI stories."
+    }
+  ],
+  "service": {
+    "label": "Guides worth keeping",
+    "articles": [
+      "how-the-eu-simplified-the-ai-act",
+      "agent-setup-guide",
+      "where-to-find-portugal"
+    ],
+    "why": "The summit is over, so the 'If you are going' box gives way to pieces that keep their value: the AI Act as it now stands, the setup guide for agents and a map of Portugal's tech places."
+  },
+  "beats": [
+    {
+      "beat": "Algarve",
+      "articles": [
+        "riskmandate-film-claude-laptop",
+        "know-the-reach-ai-music-video",
+        "portimao-ai-in-the-public-service",
+        "olhao-the-ai-path-runs-through-the-fish-farm",
+        "monchique-ai-in-the-accounts-not-the-forest",
+        "vila-real-de-santo-antonio-shipyard-robots-and-drones",
+        "alcoutim-council-in-a-weeding-robot-project",
+        "alcoutim-ai-path-runs-through-the-guadiana",
+        "lagos-ai-community-not-a-cluster",
+        "algar-ai-recycling-points-almancil"
+      ],
+      "note": "the town desks' stories, newest first; the places lead (Dinis, 16 Nov 04:00)"
+    },
+    {
+      "beat": "AI",
+      "articles": [
+        "reach-ai-lisbon-brands-in-ai-answers",
+        "ai-use-in-portugal-2026",
+        "one-door",
+        "pagerduty-agents-in-production",
+        "digital-fairness-act-ai-agents",
+        "ai-act-first-harmonised-standard",
+        "manus-2-0-agents-own-email-phone-wallet",
+        "zalando-ai-coding-agents",
+        "what-lovable-deleted",
+        "gravitee-agent-security-survey",
+        "glovo-restaurant-agents-getvocal",
+        "teamworks-coaches-agent",
+        "wpp-call-transcripts-to-jira",
+        "five-ai-builders-to-know",
+        "who-builds-the-parts-of-an-ai-agent",
+        "following-robotics-at-web-summit",
+        "agent-setup-guide",
+        "europe-ai-help-and-portugal-ai-startups"
+      ],
+      "note": "the guide to setting up agents is the reader's way in; the robotics route for the summit"
+    },
+    {
+      "beat": "Brazil",
+      "articles": [
+        "breakout-startups-thursday-centre-stage",
+        "rio-ten-startups-to-lisbon",
+        "brazils-doors-into-europe",
+        "brazil-last-year-counts",
+        "brazil-startup-mission",
+        "brazil-comes-to-lisbon-intuitivo-heads-to-brazil",
+        "brazil-on-the-stages",
+        "brazils-startup-house-in-lisbon"
+      ],
+      "note": "the story project; follow-ups from desks/correspondent/ideas/br*.md"
+    },
+    {
+      "beat": "Portugal",
+      "articles": [
+        "portugal-tech-investment-top-10-atomico-estimate",
+        "smartex-porto-ai-fabric-checks-fadell-chair",
+        "priberam-kenya-broadcasters-ai-media-webinar",
+        "cocus-vila-nova-de-gaia-tech-hubs",
+        "health-service-pays-remote-physiotherapy",
+        "superhuman-to-buy-rows-porto",
+        "ai-physiotherapy-portugal-health-service",
+        "atm-currency-conversion-portugal-mark-up",
+        "the-payment-desk-that-could-not-take-payment",
+        "center-for-responsible-ai-money-partners-goals",
+        "portugal-60-mw-computing-capacity",
+        "amalia-and-ania-portugal-ai-plans",
+        "neuraspace-coimbra-raises-15-6-million",
+        "discord-lisbon-engineering-hub",
+        "konecta-lisbon-delivery-centre",
+        "portugal-on-the-programme",
+        "where-to-find-portugal",
+        "road-2-web-summit-beyond-lisbon",
+        "octo-health-launches",
+        "pineapple-waste-to-fish-feed",
+        "from-pitch-to-new-markets",
+        "web-summit-ten-lisbon-years",
+        "lisbon-awards-and-the-algarve-plan",
+        "road-2-web-summit-2026",
+        "lisbon-universities-at-web-summit",
+        "brazils-doors-into-europe"
+      ]
+    },
+    {
+      "beat": "Europe",
+      "articles": [
+        "europe-startup-funding-81-billion-atomico",
+        "how-the-eu-simplified-the-ai-act",
+        "digital-fairness-act-ai-agents",
+        "ai-act-first-harmonised-standard",
+        "tiktok-for-you-dsa-preliminary-finding",
+        "eu-election-guidelines-generative-ai",
+        "europe-ai-help-and-portugal-ai-startups",
+        "italy-and-portugal-in-beato",
+        "europe-in-pavilion-4",
+        "wednesday-11-november-going-abroad"
+      ]
+    },
+    {
+      "beat": "Web Summit 2026",
+      "articles": [
+        "breakout-startups-thursday-centre-stage",
+        "red-wind-warning-lisbon-wednesday",
+        "web-summit-day-2-refunds",
+        "plan-your-week-by-field",
+        "web-summit-wristband-queues",
+        "web-summit-passes-and-colours",
+        "your-first-day-at-web-summit",
+        "venue-map",
+        "driving-to-web-summit",
+        "tuesday-10-november-three-ways-in",
+        "web-summit-2026-in-numbers",
+        "gender-in-tech-report-2026",
+        "web-summit-before-2026",
+        "health-startups-by-problem",
+        "ibm-sports-tech-challenge",
+        "press-conferences-day-by-day"
+      ]
+    },
+    {
+      "beat": "The newsroom",
+      "articles": [
+        "who-wrote-this-who-checked-it-who-signs-it",
+        "six-people-250-agents-promptugal-news",
+        "promptugal-news-local-news-town-by-town",
+        "daily-newsletter",
+        "speed-where-its-safe-control-where-it-matters",
+        "the-first-night-of-promptugal-news"
+      ],
+      "note": "three of the nine about-us pieces (from_the_newsroom has them all); last, so the news comes first"
+    }
+  ],
+  "from_the_newsroom": {
+    "articles": [
+      "daily-newsletter",
+      "speed-where-its-safe-control-where-it-matters",
+      "the-first-night-of-promptugal-news",
+      "angelos-communication-graph",
+      "what-the-agents-say-to-each-other",
+      "newsroom-status-four-days-out",
+      "who-does-the-work",
+      "how-the-agents-talk",
+      "how-agents-avoid-collisions",
+      "mistakes-we-made",
+      "agent-setup-guide",
+      "the-sign-in"
+    ],
+    "why": "About us, not news: the first night's story first; Angelo's communication graph (T1) second; then the agents' messages counted, the status piece, and the team series published late Friday from Vicky's and Angelo's desks (T2 to T5: who does the work, how the agents talk, how they avoid collisions, three mistakes; WS125, the agent setup guide). A 'From the newsroom' line, off Latest: nine pieces is too many for the line, so dev@ should show the first three and a link to the rest. S26, the daily newsletter (two editions a day from 7 November), goes first: it is the one a reader can act on."
+  },
+  "order_of_bands": [
+    {
+      "band": "lead and top",
+      "why": "news first"
+    },
+    {
+      "band": "service (If you are going)",
+      "why": "small, beside or under the top"
+    },
+    {
+      "band": "the map: companies by field and a company search",
+      "why": "the mandate and the outreach landing (designer's home review, item 1)"
+    },
+    {
+      "band": "by beat (in place of one flat Latest list)",
+      "why": "a reader scans by interest; Latest stays as the archive link"
+    },
+    {
+      "band": "now and next",
+      "why": "the agenda matters most from 9 November; until then it is registration rows and side events, so it sits lower now and moves to the top on Monday 9 November"
+    },
+    {
+      "band": "Portugal, as headlines (not the research log)",
+      "why": "designer's home review, item 4"
+    },
+    {
+      "band": "around the summit",
+      "why": "events others run"
+    },
+    {
+      "band": "our question; who we are",
+      "why": "the lens and the disclosure, at the foot"
+    }
+  ],
+  "summit_days": "From Monday 9 November the agenda's now-and-next moves up under the lead, and the lead changes as the day's news does. I rewrite this file at each run.",
+  "missing": [
+    "An article from the Brazilian beat that goes beyond the mission's announcement: the companies, the states, the investors (ideas filed in desks/correspondent/ideas/).",
+    "A service article Dinis asked for: 'if you are a startup and want to know which startups to meet, come to this website' (stand-up, 00:22:08).",
+    "Stories about named companies at the summit (120 profiles, no article leads with one): the outreach lands on company pages, the front page should show that the companies are the story.",
+    "One story read through the lens (reach, mandate, gap) on a named AI agent product, with RiskMandate as context, not as headline (stand-up, 00:19:05).",
+    "How we found our name (waits on Dinis in the pipeline).",
+    "Any picture: no article has an image yet (REALITY.md, search and link previews)."
+  ],
+  "not_mine": "The code that reads this file is dev@'s; the look of each band is designer@'s; the words of the bands in content/index.md are the conductor's and Dinis's (home review, item 1).",
+  "days": {
+    "about": "The front page by day, as Dinis asked at about 04:30 UTC on 6 November (board/guidance/2026-11-06-front-page-timeline-publication.md, section 2): a block of the days from Friday 6 to Friday 13 November, today highlighted; a past day shows the front page as it was then, a coming day what is planned for it (the talks, what to know). My editorial plan for each day; the counts of agenda items are from data/events/ at v0.1.113. dev@ builds the block, designer@ its look.",
+    "list": [
+      {
+        "date": "2026-11-06",
+        "day": "Friday 6 November",
+        "phase": "before the summit",
+        "know": "Portugal Tech Week begins (6 to 15 November); the Brazil story project's round 1.",
+        "lead": "web-summit-ten-lisbon-years",
+        "also": [
+          "brazil-startup-mission",
+          "octo-health-launches",
+          "web-summit-before-2026"
+        ]
+      },
+      {
+        "date": "2026-11-07",
+        "day": "Saturday 7 November",
+        "phase": "before the summit",
+        "know": "Registration opens at the airport (Terminal 1) and at Pavilhão de Portugal; the first morning newsletter (Dinis, 16:20); Dinis's Algarve Evolution follow-up. From the morning the service piece the day needs leads.",
+        "lead": "your-first-day-at-web-summit",
+        "also": [
+          "driving-to-web-summit",
+          "web-summit-ten-lisbon-years",
+          "rio-ten-startups-to-lisbon",
+          "brazil-startup-mission",
+          "lisbon-awards-and-the-algarve-plan"
+        ]
+      },
+      {
+        "date": "2026-11-08",
+        "day": "Sunday 8 November",
+        "phase": "before the summit",
+        "know": "Registration continues; the Brazilian mission's pitch training (18 startups); Tech Run Lisboa.",
+        "lead": "plan-your-week-by-field",
+        "also": [
+          "driving-to-web-summit",
+          "venue-map",
+          "your-first-day-at-web-summit",
+          "rio-ten-startups-to-lisbon",
+          "brazils-doors-into-europe"
+        ]
+      },
+      {
+        "date": "2026-11-09",
+        "day": "Monday 9 November",
+        "phase": "Opening Night",
+        "know": "Opening Night 18:00 to 20:00; the delegations' meet and greets (UK, Iberia) from 20:00; registration all day.",
+        "lead": "plan-your-week-by-field until Monday evening (the planning piece still serves on Opening Night day); from about 20:00 UTC the Tuesday guide, tuesday-10-november-three-ways-in, leads for the first summit day",
+        "also": [
+          "web-summit-wristband-queues",
+          "who-builds-the-parts-of-an-ai-agent",
+          "venue-map",
+          "your-first-day-at-web-summit",
+          "driving-to-web-summit",
+          "tuesday-10-november-three-ways-in"
+        ]
+      },
+      {
+        "date": "2026-11-10",
+        "day": "Tuesday 10 November",
+        "phase": "summit day 1",
+        "know": "60 official items: PITCH begins; the Commission on Centre Stage; nine Portuguese universities pitch; the Brazil Pavilion's AI pitch competition; the Lisbon incubator's 2027 class (brazil-12).",
+        "lead": "tuesday-10-november-three-ways-in, from Monday evening; then the day's news as it comes",
+        "also": [
+          "now and next",
+          "the day's sessions on AI agents read through reach, mandate and gap",
+          "brazils-startup-house-in-lisbon",
+          "brazil-on-the-stages",
+          "ibm-sports-tech-challenge",
+          "where-to-find-portugal",
+          "portugal-on-the-programme"
+        ]
+      },
+      {
+        "date": "2026-11-11",
+        "day": "Wednesday 11 November",
+        "phase": "summit day 2: did not take place (Storm Charles)",
+        "know": "Web Summit cancelled Day 2 at the Government of Portugal's formal advice (announced 19:38 UTC on 10 November): tidal flooding, severe disruption to public transport, high winds on external structures. IPMA red warnings for wind and rain.",
+        "lead": "red-wind-warning-lisbon-wednesday (S41, the storm)",
+        "also": [
+          "plan-your-week-by-field",
+          "what-lovable-deleted",
+          "gravitee-agent-security-survey"
+        ]
+      },
+      {
+        "date": "2026-11-12",
+        "day": "Thursday 12 November",
+        "phase": "summit day 3 (confirmed): the final day, with rescheduled Wednesday sessions",
+        "know": "Web Summit's homepage, 12:32 UTC Wednesday: 'officially back on tomorrow for our final day ... our busiest Thursday ever with more speakers and meetups than ever, including many rescheduled from Wednesday'; the schedule updates later on Wednesday.",
+        "lead": "the day's news, up to the last minute",
+        "also": [
+          "now and next",
+          "brazil-on-the-stages"
+        ]
+      },
+      {
+        "date": "2026-11-13",
+        "day": "Friday 13 November",
+        "phase": "after the summit",
+        "know": "The Brazilian mission's closing session; Portugal Tech Week continues to 15 November.",
+        "lead": "the week in review: what we mapped, what happened, what was announced",
+        "also": [
+          "the story projects' final rounds"
+        ]
+      }
+    ]
+  },
+  "decisions_on_findings": [
+    {
+      "finding": "F39 (synthetic run 6)",
+      "what": "C's 30-second briefing is the readers' favourite but its lines carry no source or author, and 'Play the briefing' does not say what it plays",
+      "decision": "accept: each briefing line is the headline of a published article and links it (so each carries that article's sources and byline); a line with no article behind it is not in the briefing. The words of the lines come from front-page.json's lead and top; the layout and the play button are designer@'s and dev@'s.",
+      "at": "2026-11-06T06:44Z"
+    },
+    {
+      "finding": "F40 (synthetic run 6)",
+      "what": "'Registration: collect your lanyard and wristband' three times under one title on the front page",
+      "decision": "accept: the place belongs in the title (Airport T1, Pavilhão de Portugal) or the three should show as one item with its places. The titles come from the programme desk's agenda and the derivation: for ontologist@ (or the programme desk), and dev@ if the front page should group them.",
+      "at": "2026-11-06T06:44Z"
+    },
+    {
+      "finding": "F54 (synthetic run 12)",
+      "what": "the summit days' 'five things to plan around' are all or almost all press conferences: data/front/days.json has no picks",
+      "decision": "done: my five per day (9 to 12 November) in front-page.json 'day_picks'; dev@ wired days.mjs to read them first (v0.1.53x, 7 November); /days/2026-11-10/ shows them; verified live by synthetic@ at v0.1.535",
+      "at": "2026-11-07T12:50Z"
+    }
+  ],
+  "note_for_dev": "Read since 7 November: lead, top, briefing (E, dev@'s note of 06:30) and beats (D, F, G through lib/home.mjs). Thank you. Not read: service, from_the_newsroom (beats now carries three of it) and days.",
+  "standing_rule": "One step ahead of the summit (Dinis at the stand-up, 00:23:17: 'we probably need the website to be just one little bit ahead'; the ideas ledger, SD-16): each wake plans the next day's front page in 'days' before the day comes, and from Monday 9 November the evening's run sets the next morning's lead.",
+  "feature_history": [
+    {
+      "label": "Algarve Evolution",
+      "path": "portugal/algarve-evolution/index.html",
+      "from": "2026-11-06T14:15Z",
+      "until": "2026-11-06T16:00Z",
+      "note": "asked of dev@ as a band under the lead; not read by the build in that window"
+    }
+  ],
+  "newsletter": "From Saturday 7 November (Dinis, 16:20 UTC): the morning and evening editions can take each day's 'know', 'lead' and 'also' from 'days' below (the morning: what is on; the evening: what happened). For whoever builds the editions.",
+  "briefing": {
+    "about": "For Silvio's mock E (board/briefs/2026-11-06-front-page-mock-e.md): 'The briefing', numbered 1 to 5, the five things a reader needs today, in this order. Article slugs; dev.pages@ shows the headline and the section. Refreshed with the lead at each wake; from Monday it follows the day's news.",
+    "for_date": "2026-11-12",
+    "items": [
+      {
+        "article": "plan-your-week-by-field",
+        "why": "security all on Thursday"
+      },
+      {
+        "article": "breakout-startups-thursday-centre-stage",
+        "why": "four startups on Centre Stage on Thursday morning"
+      },
+      {
+        "article": "what-lovable-deleted",
+        "why": "an agent rebuilt by deletion"
+      },
+      {
+        "article": "zalando-ai-coding-agents",
+        "why": "agents across an engineering organisation, with the controls"
+      },
+      {
+        "article": "discord-lisbon-engineering-hub",
+        "why": "Discord's engineering hub in Lisbon"
+      }
+    ]
+  },
+  "measure": {
+    "about": "What tells me the front page works (historian@'s lesson 5, board/briefs/2026-11-07-the-php-newsrooms-lesson.md: 81% of the PHP newsroom's front-page visits read nothing else).",
+    "ask": "observability@: the share of reader visits that start on the front page and read a second page, for A and for mock E, readers only (crawlers and agents apart), published with its date; I read it at each wake to choose the lead and the briefing."
+  },
+  "beats_why": "The agentic edition (10 November): AI and agents first, then the summit, Brazil, Portugal, Europe; the newsroom last. Names aligned with the articles' eight categories (Vicky's approval, 10 November about 23:55 UTC; desks/conductor-vicky/taxonomy/categories.md): Web Summit 2026, AI, Portugal, Brazil, Europe, The newsroom; Startups & Scaleups and Corporate have no beat of mine yet.",
+  "day_picks": {
+    "about": "My five a day for the summit days, read by days.mjs first. Cleared at 09:00 UTC on 12 November: dev@'s websummit-only switch went on (545934d20) and every session I had picked rests only on websummit.com, so none is served (the pass board/passes/2026-11-11-only-websummit-sourced-comes-off.md, my step 6). The picks are in git history as the record. New picks only from sessions with a source beyond websummit.com (researcher@'s shadow sources). Lesson (dev@, 12 November): clearing 'days' at 08:45 also cleared Wednesday's 'did not take place' status; dev@ now keeps it in newsroom/build/cancelled-days.json, and a status set here still wins.",
+    "days": {}
+  },
+  "phone_interview": {
+    "about": "H2 of board/spec-the-agentic-home-page.md: on a phone only, one interview inside the top, under the standfirst, and dropped from the list below. My pick per day; dev.pages@ reads 'rel' (the interview's page, from desks/journalist-promptugal/interviews/).",
+    "today": {
+      "for_date": "2026-11-12",
+      "interview": "buzz-messaging-ai--guy-ben-zvi--2026-11-09",
+      "rel": "interviews/buzz-messaging-ai/guy-ben-zvi/index.html",
+      "why": "No new interview published; Buzz Messaging AI returns for the final day (agents in a European messaging platform)."
+    }
+  },
+  "lead_shared_keys": {
+    "about": "While S41 leads, reviewer@PrompTugal.vicky may write only these keys of 'lead' (Dinis, about 18:25 UTC on 10 November; board/guidance/2026-11-10-vickys-reviewer-and-security.md). I never overwrite them; it ends when S41 leaves the lead. Ended at 20:48 UTC on 11 November when S41 left the lead (record in 's41_lead_record').",
+    "keys": [
+      "standfirst",
+      "developments",
+      "programme",
+      "last_checked",
+      "live"
+    ],
+    "active": false
+  },
+  "live_sources": {
+    "about": "Dinis, 11 November about 10:00 UTC (board/guidance/2026-11-11-the-site-follows-the-storm-and-lisbon-fringe.md): pt.news follows what is happening now; the storm and today lead. Links the home page shows at the top, named as the live source (dev@ builds them).",
+    "items": [
+      {
+        "name": "Storm Charles, live",
+        "url": "https://storm-charles.promptugal.news",
+        "data": "https://storm-charles.promptugal.news/api/v1/index.json",
+        "why": "the live source for warnings, decisions and the organisers' statements while S41 leads"
+      },
+      {
+        "name": "Lisbon Tech Fringe",
+        "url": "https://lisbontechfringe.com/?via=promptugal-news",
+        "why": "the alternative and community events around the summit; moved from fringe.promptugal.news (404 at 17:24 UTC) to lisbontechfringe.com (200, title 'Lisbon Tech Fringe', checked 17:27 UTC 11 November)",
+        "tonight_line": {
+          "text": "Tonight in Lisbon, after the summit: the evening's tech events, many free",
+          "until": "2026-11-12T23:59Z",
+          "why": "Lisbon Tech Fringe asked (via conductor.b@, 13:25 UTC) for a front-page line on the last evening; useful to readers. No number: its page at 13:23 UTC said 'Tonight 27' and 'In Lisbon today 68 events', not the 38 and 30 in the request, and counts move by the hour.",
+          "checked": "2026-11-12T13:25Z, https://lisbontechfringe.com/"
+        }
+      }
+    ]
+  },
+  "s41_lead_record": {
+    "about": "S41 led from 14:50 UTC on 10 November to 20:48 UTC on 11 November. reviewer@PrompTugal.vicky's five shared keys as they stood when it left the lead, kept as the record; their grant (Dinis, 18:25 on 10 November) ended with it.",
+    "left_lead": "2026-11-11T20:48Z",
+    "keys": {
+      "standfirst": "Web Summit called off Day 2 on the government's advice because of Storm Charles; on Wednesday it said it is officially back on Thursday for its final day.",
+      "developments": [
+        {
+          "text": "IPMA, Lisbon: no wind warning now; rain yellow until 18:00; sea orange until 21:00.",
+          "source": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+          "checked": "2026-11-11T18:33Z"
+        },
+        {
+          "text": "Government alert until 23:59 Wednesday; not planned for Thursday, the minister says.",
+          "source": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/mau-tempo-a-proatividade-da-nos-tranquilidade-1",
+          "checked": "2026-11-11T18:33Z"
+        }
+      ],
+      "programme": {
+        "label": "Web Summit, Thursday",
+        "text": "Day 2 cancelled; Web Summit says it is officially back on Thursday.",
+        "source": "https://websummit.com/",
+        "checked": "2026-11-11T12:36Z"
+      },
+      "last_checked": "2026-11-11T18:33Z",
+      "live": null
+    }
+  },
+  "takedown_note": {
+    "about": "The websummit-only pass (Dinis, 11 November, about 18:50 UTC): my step is the front page and its bands. When dev@'s switch (newsroom/build/websummit-only.json) goes on, the build drops websummit-only items; slugs in this file that are withdrawn are skipped by the build, and I re-pick the day picks (session data from websummit.com) from what remains or its shadow sources.",
+    "checked": "2026-11-12T08:55Z: switch on; every article slug in this file still published and on the built front page; all 15 day picks (10 to 12 November) were websummit-only and are cleared; AG1's title softened, held for shadow sources"
+  },
+  "next_edition": {
+    "about": "Friday 13 November, the day after the summit, drafted at 00:50 UTC Thursday. Swapped in on Thursday evening, after the final day. Not read by the build.",
+    "for_date": "2026-11-13",
+    "lead": {
+      "article": "<the week in review: the summit that lost a day to a storm, as agents covered it, when journalist@ publishes it>",
+      "fallback": "red-wind-warning-lisbon-wednesday",
+      "why": "The day after: the week's one story was a summit that lost its main day to Storm Charles; the agentic edition saw it through its agents' work (Dinis's case study, board/guidance/2026-11-10-the-storm-as-our-case-study.md)."
+    },
+    "top": [
+      {
+        "article": "<what Thursday's agent sessions said, when published>",
+        "why": "the agentic edition's last word on the summit"
+      },
+      {
+        "article": "<AG1, the agent sessions the storm postponed, when published>",
+        "why": "what Wednesday's agent sessions were going to say"
+      },
+      {
+        "article": "<Noxus's GAMMA-Ray article, when published>",
+        "why": "GAMMA-Ray's first Portuguese card"
+      }
+    ],
+    "briefing": [
+      {
+        "article": "web-summit-day-2-refunds",
+        "why": "refunds for the cancelled day"
+      },
+      {
+        "article": "gravitee-agent-security-survey",
+        "why": "agents outpace their security"
+      },
+      {
+        "article": "what-lovable-deleted",
+        "why": "an agent rebuilt by deletion"
+      },
+      {
+        "article": "digital-fairness-act-ai-agents",
+        "why": "rules for agents that shop"
+      },
+      {
+        "article": "manus-2-0-agents-own-email-phone-wallet",
+        "why": "an agent with its own email, phone and wallet"
+      }
+    ],
+    "rule": "At the swap, every '<...>' slot takes the published slug or its fallback; a slot with neither is dropped; slugs withdrawn in the websummit-only pass are dropped."
+  }
+}
