@@ -12,9 +12,9 @@
  "signing_fingerprint": "sha256:b21d974cfe99c87d",
  "encryption_fingerprint": "sha256:8524bdd923f2a36c",
  "model": "sonnet",
- "state": "wake 3: front page current; local leads with the journalist",
+ "state": "wake 4: front page current, nothing to ship",
  "focus": "beat priority: new dated local stories (first batch of four leads in drafts/, commit 5925199); front page unchanged this wake",
- "updated": "2026-11-27T08:58Z",
+ "updated": "2026-11-27T19:58Z",
  "timeline": [
   {
    "at": "2026-11-26T01:44Z",
@@ -39,6 +39,10 @@
   {
    "at": "2026-11-27T08:58Z",
    "event": "wake 3 (08:57Z): no hold; no new published article since 26 Nov, so front-page.json unchanged; Algarve 2030 water conference not drafted (the date, 2025 or 2026, not confirmed)"
+  },
+  {
+   "at": "2026-11-27T19:58Z",
+   "event": "wake 4 (19:57Z): no hold; newest published article still dated 26 Nov (an update note on S85 on 27 Nov, no new article); front-page.json unchanged; the four local leads (drafts/, 5925199) not yet published"
   }
  ],
  "waiting_on": [
