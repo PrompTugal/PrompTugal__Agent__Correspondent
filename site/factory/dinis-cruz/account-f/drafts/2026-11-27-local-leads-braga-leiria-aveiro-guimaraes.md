@@ -1,0 +1,26 @@
+# Four dated local leads for the journalist, 27 Nov 2026
+
+From cl-6.correspondent@PrompTugal.dinis, 2026-11-27T01:06Z. Beat: Portugal, local. Source of each lead: the place agent cl-6.places's headline lists (leads only); I then read each page in full on 27 Nov 2026 (facts below are from the page text, each with its URL and the date read, 27 Nov 2026). Newest dated local stories on the site were 17 Nov, so these are for freshness. Nothing here is copied: facts only, each to be written in the journalist's words and checked. Private individuals are not named (roles only). The journalist decides which to write; suggested front matter (town, region, builds_on) at the head of each.
+
+## 1. Leiria hospital reaches 200 robotic operations
+Suggested: town: leiria, region: centro, beat: Portugal, builds_on: []. AI link is weak: it is surgical robotics, not AI as such; say so, or hold it for the robotics angle only.
+- Source: Jornal de Leiria, "Hospital de Leiria fez 200 robóticas em menos de um ano", 26 Nov 2026 17:08, based on a press note from the local health unit. https://www.jornaldeleiria.pt/noticia/hospital-de-leiria-fez-200-roboticas-em-menos-de-um-ano
+- Facts: the robotic surgery programme of the Unidade Local de Saúde da Região de Leiria (ULSRL) reached 200 operations in under a year (started in January; general surgery, gynaecology, urology). The da Vinci system at the Hospital de Santo André cost 1.8 million euros, funded by the PRR. Ten principal surgeons trained so far. The health unit lists less blood loss, less post-operative pain and shorter stays, which the article says depend on the procedure and the patient.
+
+## 2. A free AI academy for students, founded by a Minho student
+Suggested: town: braga, region: norte, beat: AI, builds_on: [].
+- Source: Braga TV, "Estudante da UMinho cria a primeira academia gratuita de inteligência artificial para alunos", 26 Nov 2026. https://bragatv.pt/estudante-da-uminho-cria-a-primeira-academia-gratuita-de-inteligencia-artificial-para-alunos/
+- Facts: a 19-year-old second-year Management student at the Universidade do Minho (not named: a private person, the journalist should decide whether the name is public and professional enough) founded AILab, presented as the first AI academy for students in Portugal. Free; says it has passed 1,200 students; five sessions at three higher-education institutions so far; its own platform with classes, resources and AI assistants; stated aim: responsible use of AI and critical thinking, complementing teachers. The claim "first in Portugal" is the outlet's/founder's own: attribute it.
+
+## 3. Two doctors caught with AI glasses at the national access exam
+Suggested: town: (none: Santa Maria da Feira is not a covered place), region: centro, beat: AI, builds_on: []. Handle neutrally: the Ministry has not decided the consequences.
+- Source: Diário de Aveiro (Lusa), "Dois médicos detetados a usar óculos com inteligência artificial na Prova de Acesso", 26 Nov 2026 15:30. https://www.diarioaveiro.pt/2026/11/26/dois-medicos-detetados-a-usar-oculos-com-inteligencia-artificial-na-prova-de-acesso/
+- Facts: at the Prova Nacional de Acesso to specialist training, held on the Wednesday at the Europarque in Santa Maria da Feira, two doctors were found with modified glasses: one newly graduated with AI-technology glasses; the other with a built-in camera sending images to someone outside, who gave information through earpieces (per sources "connected to the process" quoted by Lusa). Surveillance teams reported it; devices were removed. The exam's 2026 regulation bans any electronic device and makes it grounds for annulment. The Ministry of Health confirmed the case and said it will be assessed under the rules and that the jury will decide on validity; consequences are not anticipated. The doctors are unnamed in the source: keep them unnamed.
+
+## 4. "Apagão Digital 26": a national drill for a total digital failure, Friday 27 Nov
+Suggested: town: guimaraes (if a covered place; else region: norte), beat: Portugal, builds_on: []. A cyber/resilience piece rather than AI; today's event, so publish early.
+- Source: Braga TV, "Luís Neves participa em Guimarães em exercício que vai simular um apagão digital", 26 Nov 2026. https://bragatv.pt/luis-neves-participa-em-guimaraes-em-exercicio-que-vai-simular-um-apagao-digital/
+- Facts: the exercise simulates a total failure of digital systems to test the State's emergency communications; Friday 27 Nov 2026 at 10:00, Campus de Azurém, Guimarães; closes the 4th SIRESP Bootcamp, Região Norte. The Ministers of Internal Administration (Luís Neves), of State Reform (Gonçalo Matias) and of National Defence (Nuno Melo) are to attend. At the end 228 SIRESP radios are to be handed to the participating municipalities for their councils and parish councils.
+
+## Not done
+No official primary page (the health unit, the university, the Ministry, the government) was read for any of these: all four rest on the local outlet, which the journalist should say, or check at the source. The Algarve 2030 water and AI conference in Faro (24 Nov) is not drafted: only a 16 Nov pre-announcement exists in our data and I have not read what happened.
