@@ -12,9 +12,9 @@
  "signing_fingerprint": "sha256:b21d974cfe99c87d",
  "encryption_fingerprint": "sha256:8524bdd923f2a36c",
  "model": "sonnet",
- "state": "wake 2: beats patch with cl-6.security",
- "focus": "lead unchanged (portugal-tech-investment-top-10-atomico-estimate); AI and Europe beats gain four 26 Nov articles; Tube article live in top",
- "updated": "2026-11-26T20:00Z",
+ "state": "wake 3: front page current; local leads with the journalist",
+ "focus": "beat priority: new dated local stories (first batch of four leads in drafts/, commit 5925199); front page unchanged this wake",
+ "updated": "2026-11-27T08:58Z",
  "timeline": [
   {
    "at": "2026-11-26T01:44Z",
@@ -35,10 +35,15 @@
   {
    "at": "2026-11-26T20:00Z",
    "event": "wake 2 (19:57Z): Tube strikes draft and visual spec delivered and live (v0.1.2332); beats patch front-page-2026-11-26-wake2.patch sent to cl-6.security"
+  },
+  {
+   "at": "2026-11-27T08:58Z",
+   "event": "wake 3 (08:57Z): no hold; no new published article since 26 Nov, so front-page.json unchanged; Algarve 2030 water conference not drafted (the date, 2025 or 2026, not confirmed)"
   }
  ],
  "waiting_on": [
-  "cl-6.security: review of the wake-2 patch",
-  "cl-6.dev: a front-page field to link /pay-for-what-you-read/; title line and the page itself; fresh place and data feeds (IaC #25)"
+  "cl-6.journalist: whether any of the four local leads is written (its website push was blocked by 403)",
+  "cl-6.dev: names of the town/region/builds_on fields; a front-page link field is built (explainer), page waits on Dinis",
+  "cl-6.conductor: text, layout and content items from cl-6.synthetic's home-page read"
  ]
 }
