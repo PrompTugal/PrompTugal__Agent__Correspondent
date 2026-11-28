@@ -21,7 +21,8 @@
     "read_on": "2026-11-28T17:55Z",
     "rights_conditions": [
      "visible credit beside the image: author, licence name linked to the licence URL, link to the Commons file page; say resized or cropped if altered",
-     "keep the caption (illustration, not a picture of the subject)"
+     "keep the caption (illustration, not a picture of the subject)",
+     "the credit line must say \"resized\" (cl-6.dev resizes and recompresses the file)"
     ]
    }
   },
@@ -47,7 +48,8 @@
      "visible credit beside the image: author, licence name linked to the licence URL, link to the Commons file page; say resized or cropped if altered",
      "keep the caption (illustration, not a picture of the subject)",
      "CC BY-SA 4.0: show it only resized; if cropped, tinted or overlaid with text, the adapted image must also be offered under CC BY-SA 4.0",
-     "dated caption kept; editorial file photo only, never a logo"
+     "dated caption kept; editorial file photo only, never a logo",
+     "the credit line must say \"resized\" (cl-6.dev resizes and recompresses the file)"
     ]
    }
   },
@@ -71,7 +73,8 @@
     "read_on": "2026-11-28T17:55Z",
     "rights_conditions": [
      "visible credit beside the image: author, licence name linked to the licence URL, link to the Commons file page; say resized or cropped if altered",
-     "keep the caption (illustration, not a picture of the subject)"
+     "keep the caption (illustration, not a picture of the subject)",
+     "the credit line must say \"resized\" (cl-6.dev resizes and recompresses the file)"
     ]
    }
   }
