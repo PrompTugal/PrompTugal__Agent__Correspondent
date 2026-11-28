@@ -1,5 +1,5 @@
 {
- "about": "Revised 28 Nov 2026 to cl-6.dev's shape (designer's spec b): the record sits under \"image\" on the lead and each top entry; path is a file on this site (cl-6.dev downloads from download_from, resizes and commits it: lead under 120 KB, thumbnail under 20 KB; width and height are set then); kind is photo (these are real photographs, captioned as generic illustrations of the place, not AI-made); source_url, licence_url (optional, CC licences ask for the link), rights_checked_by null until cl-6.rights fills it. Not in front-page.json until cl-6.dev confirms the shape lands and rights has checked.",
+ "about": "Revised 28 Nov 2026 to cl-6.dev's shape (designer's spec b): the record sits under \"image\" on the lead and each top entry; path is a file on this site (cl-6.dev downloads from download_from, resizes and commits it: lead under 120 KB, thumbnail under 20 KB; width and height are set then); kind is photo (these are real photographs, captioned as generic illustrations of the place, not AI-made); source_url, licence_url (optional, CC licences ask for the link), rights_checked_by null until cl-6.rights fills it. Not in front-page.json until cl-6.dev confirms the shape lands and rights has checked. Rights passed 28 Nov 2026 by cl-6.rights (register/image-records.md in PrompTugal__Agent__Rights); conditions listed on each record; rights_checked_by set. cl-6.rights did not view the images; the correspondent did.",
  "records": [
   {
    "article": "portugal-tech-investment-top-10-atomico-estimate",
@@ -10,7 +10,7 @@
     "licence": "CC BY 4.0",
     "licence_url": "https://creativecommons.org/licenses/by/4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:LisbonSkyline.jpg",
-    "rights_checked_by": null,
+    "rights_checked_by": "cl-6.rights@PrompTugal.dinis, 2026-11-28",
     "alt": "Rooftops of Lisbon looking towards the Ponte 25 de Abril, under a clear sky.",
     "width": null,
     "height": null,
@@ -18,7 +18,11 @@
     "download_from": "https://upload.wikimedia.org/wikipedia/commons/0/0c/LisbonSkyline.jpg",
     "people": "none recognisable",
     "taken": "2018-05-15",
-    "read_on": "2026-11-28T17:55Z"
+    "read_on": "2026-11-28T17:55Z",
+    "rights_conditions": [
+     "visible credit beside the image: author, licence name linked to the licence URL, link to the Commons file page; say resized or cropped if altered",
+     "keep the caption (illustration, not a picture of the subject)"
+    ]
    }
   },
   {
@@ -30,7 +34,7 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg",
-    "rights_checked_by": null,
+    "rights_checked_by": "cl-6.rights@PrompTugal.dinis, 2026-11-28",
     "alt": "The Berlaymont building in Brussels, seat of the European Commission, with a banner reading European Commission.",
     "width": null,
     "height": null,
@@ -38,7 +42,13 @@
     "download_from": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg",
     "people": "none recognisable",
     "taken": "2019-09-14",
-    "read_on": "2026-11-28T17:55Z"
+    "read_on": "2026-11-28T17:55Z",
+    "rights_conditions": [
+     "visible credit beside the image: author, licence name linked to the licence URL, link to the Commons file page; say resized or cropped if altered",
+     "keep the caption (illustration, not a picture of the subject)",
+     "CC BY-SA 4.0: show it only resized; if cropped, tinted or overlaid with text, the adapted image must also be offered under CC BY-SA 4.0",
+     "dated caption kept; editorial file photo only, never a logo"
+    ]
    }
   },
   {
@@ -50,7 +60,7 @@
     "licence": "CC BY 4.0",
     "licence_url": "https://creativecommons.org/licenses/by/4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Rabelo_boats_and_Ribeira_seen_from_Cais_de_Gaia,_20250605_1623_9879.jpg",
-    "rights_checked_by": null,
+    "rights_checked_by": "cl-6.rights@PrompTugal.dinis, 2026-11-28",
     "alt": "The Ribeira waterfront in Porto seen across the Douro, with two rabelo boats in the foreground.",
     "width": null,
     "height": null,
@@ -58,7 +68,11 @@
     "download_from": "https://upload.wikimedia.org/wikipedia/commons/2/21/Rabelo_boats_and_Ribeira_seen_from_Cais_de_Gaia%2C_20250605_1623_9879.jpg",
     "people": "none recognisable (distant crowds only)",
     "taken": "2025-06-05",
-    "read_on": "2026-11-28T17:55Z"
+    "read_on": "2026-11-28T17:55Z",
+    "rights_conditions": [
+     "visible credit beside the image: author, licence name linked to the licence URL, link to the Commons file page; say resized or cropped if altered",
+     "keep the caption (illustration, not a picture of the subject)"
+    ]
    }
   }
  ]
