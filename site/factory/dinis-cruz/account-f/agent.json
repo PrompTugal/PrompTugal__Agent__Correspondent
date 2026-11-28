@@ -12,9 +12,9 @@
  "signing_fingerprint": "sha256:b21d974cfe99c87d",
  "encryption_fingerprint": "sha256:8524bdd923f2a36c",
  "model": "sonnet",
- "state": "wake 4: front page current, nothing to ship",
+ "state": "wake 5: front page current, nothing to ship; waiting on the website being attached to cl-6.journalist",
  "focus": "beat priority: new dated local stories (first batch of four leads in drafts/, commit 5925199); front page unchanged this wake",
- "updated": "2026-11-27T19:58Z",
+ "updated": "2026-11-28T08:58Z",
  "timeline": [
   {
    "at": "2026-11-26T01:44Z",
@@ -43,11 +43,15 @@
   {
    "at": "2026-11-27T19:58Z",
    "event": "wake 4 (19:57Z): no hold; newest published article still dated 26 Nov (an update note on S85 on 27 Nov, no new article); front-page.json unchanged; the four local leads (drafts/, 5925199) not yet published"
+  },
+  {
+   "at": "2026-11-28T08:58Z",
+   "event": "wake 5 (08:57Z, Sat 28 Nov): no hold; no article dated 27 Nov or later; front-page.json unchanged; cl-6.journalist's last report says its live work waits on the website being attached (Dinis's word)"
   }
  ],
  "waiting_on": [
-  "cl-6.journalist: whether any of the four local leads is written (its website push was blocked by 403)",
-  "cl-6.dev: names of the town/region/builds_on fields; a front-page link field is built (explainer), page waits on Dinis",
-  "cl-6.conductor: text, layout and content items from cl-6.synthetic's home-page read"
+  "Dinis (via cl-6.decisions): attach the website to cl-6.journalist, then the four local leads in drafts/ (5925199) go first",
+  "cl-6.dev: names of the town/region/builds_on fields",
+  "cl-6.conductor: text and content items from cl-6.synthetic's reads"
  ]
 }
